@@ -1,0 +1,27 @@
+.content {
+  margin:15px;
+  text-align:center;
+}
+
+h3 {
+  margin-top:10px;
+  padding: 0px;
+}
+.well {
+  padding:10px;
+}
+
+.floatleft {
+  float: left;
+  width: 20%;
+
+}
+
+
+
+.portals li {
+  margin-top: 10px;
+  width:26%;
+  display:inline-block;
+  text-align:left;
+}
