@@ -1,6 +1,9 @@
 .content {
   margin:15px;
   text-align:center;
+  clear: right;
+  float: right;
+  width: 85%;
 }
 
 h3 {
@@ -8,7 +11,7 @@ h3 {
   padding: 0px;
 }
 .well {
-  padding:10px;
+  padding:0px;
 }
 
 .floatleft {
@@ -24,4 +27,81 @@ h3 {
   width:26%;
   display:inline-block;
   text-align:left;
+}
+ .menu {
+   float: left;
+   width: 10%;
+ }
+
+ .header {
+   float: right;
+   width: 85%;
+
+ }
+ .header ul:first-child li{
+   padding-left: 5px;
+ }
+
+ .header li {
+   display: inline-block;
+   float: right;
+
+ }
+ input {
+   float: right;
+   width: 20%;
+ }
+ .nav-tab{
+   float: left;
+ }
+
+ .nav-tab:nth-last-child(1){
+   float: right;
+ }
+ .container {
+  padding: 0px;
+  margin: 20px;
+
+ }
+
+.content > .row > * .panel {
+  height: 700px;
+}
+
+.panel-success {
+  background-color: #f5fffa;
+  border: 1px solid #cef2e0;
+}
+
+.panel-success .panel-heading {
+  background-color: #cef2e0;
+  border: 1px solid #a3bfb1;
+  
+  width: 100%;
+
+}
+
+.panel-title {
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.panel-info {
+  background-color: #f5faff;
+  border: 1px solid #cedff2;
+}
+
+.panel-info .panel-heading {
+  background-color: #cedff2;
+  border: 1px solid #a3b0bf;
+  margin: 12px;
+
+}
+
+.panel-title {
+  text-align: left;
+  color: black;
+  font-weight: bold;
 }
