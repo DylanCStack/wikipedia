@@ -3,7 +3,21 @@
   text-align:center;
   clear: right;
   float: right;
-  width: 85%;
+  width: 82%;
+
+}
+.container {
+ padding: 0px;
+ margin: 0px;
+
+}
+body {
+  padding:0px;
+  margin:0px;
+}
+div {
+    margin:0px;
+    padding:0px;
 }
 
 h3 {
@@ -20,6 +34,14 @@ h3 {
 
 }
 
+.tab-holder1 {
+  float:left;
+  width:45%;
+}
+.tab-holder2 {
+  float:right;
+  width:45%;
+}
 
 
 .portals li {
@@ -29,13 +51,25 @@ h3 {
   text-align:left;
 }
  .menu {
+   background-color: #f6f6f6;
    float: left;
-   width: 10%;
+   width: 15%;
+   padding-left: 20px;
+   padding-right: 10px;
+
+ }
+
+ .menu>a {
+   float:left;
+   clear:both;
+ }
+ .menu>p {
+   clear:both;
  }
 
  .header {
    float: right;
-   width: 85%;
+   width: 83%;
 
  }
  .header ul:first-child li{
@@ -47,9 +81,19 @@ h3 {
    float: right;
 
  }
+.input-holder {
+  float:right;
+  border-bottom: 1px solid grey;
+  width:10%;
+  margin-bottom: 1px;
+}
+
  input {
    float: right;
-   width: 20%;
+   width: 80%;
+   margin-top:5px;
+   margin-bottom: 10px;
+
  }
  .nav-tab{
    float: left;
@@ -58,11 +102,7 @@ h3 {
  .nav-tab:nth-last-child(1){
    float: right;
  }
- .container {
-  padding: 0px;
-  margin: 20px;
 
- }
 
 .content > .row > * .panel {
   height: 700px;
@@ -76,8 +116,7 @@ h3 {
 .panel-success .panel-heading {
   background-color: #cef2e0;
   border: 1px solid #a3bfb1;
-  
-  width: 100%;
+  margin: 12px;
 
 }
 
